@@ -14,7 +14,7 @@
         <style>
             html, body {
                 background-color: #FFF;
-                background-image: url("https://static.pexels.com/photos/1780/landscape-nature-clouds-cloudy.jpg");
+                background-image: url({{ config('website.backgroundImage') }});
                 background-size:100% 100%;
                 background-repeat: no-repeat;
                 color: #F2F2F2;
@@ -72,7 +72,7 @@
                 <a href="{{ config('website.link.blog') }}"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
                 <a href="{{ config('website.link.github') }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 <a href="{{ config('website.link.weibo') }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i> Weibo</a>
-                <a href="https://laracasts.com" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> Jianshu</a>
+                <a href="{{ config('website.link.jianshu') }}" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> Jianshu</a>
             </div>
         </div>
     </div>
