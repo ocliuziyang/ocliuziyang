@@ -11,6 +11,17 @@
 |
 */
 
+// Blog
+Route::group(['domain' => 'blog.ocliuziyang.dev'], function () {
+    Route::get('/', function () {
+        //
+        return '博客首页';
+    });
+});
+
+// Home
 Route::get('/', function () {
     return view('welcome');
 });
+
+

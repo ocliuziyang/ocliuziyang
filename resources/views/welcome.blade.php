@@ -69,7 +69,7 @@
             </div>
 
             <div class="links">
-                <a href="{{ config('website.link.blog') }}"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
+                <a href="{{ config('website.link.blog') }}" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
                 <a href="{{ config('website.link.github') }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
                 <a href="{{ config('website.link.weibo') }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i> Weibo</a>
                 <a href="{{ config('website.link.jianshu') }}" target="_blank"><i class="fa fa-book" aria-hidden="true"></i> Jianshu</a>
