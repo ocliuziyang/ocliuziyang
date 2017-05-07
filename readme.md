@@ -4,6 +4,10 @@
 	
 	$ cd ocliuziyang 
 	
+	$ composer install
+
+	$ cp .env.example .env
+
 	// 在国内由于国家防火墙的对外网的限制，最好使用阿里巴巴提供的 淘宝 NPM 镜像
 	$ npm install
 	

@@ -11,7 +11,18 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.sass('resources/assets/sass/blog.custom.scss', 'public/css');
+mix.sass('resources/assets/sass/blog-auth.scss', 'public/css');
+
+mix.sass('vendor/bower_components/font-awesome/scss/font-awesome.scss', 'public/assets/app/css/app.css').version();
+
+mix.styles([
+    'vendor/bower_components/gentelella/vendors/bootstrap/dist/css/bootstrap.css',
+    'vendor/bower_components/gentelella/vendors/animate.css/animate.css',
+    'vendor/bower_components/gentelella/build/css/custom.css',
+], 'public/assets/admin/css/admin.css').version();
+
+mix.copy('vendor/bower_components/gentelella/vendors/bootstrap/fonts', 'public/assets/admin/fonts');
 
 mix.browserSync('ocliuziyang.dev');
