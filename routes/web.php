@@ -35,7 +35,7 @@ Route::group(['prefix' => '/'], function () {
 });
 
 // Admin
-Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function () {
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['auth.admin']], function () {
     Route::get('/', function () {
         return view('admin.home');
     });

@@ -14,6 +14,7 @@ use Laravel\Socialite\Facades\Socialite;
 class LoginController extends Controller
 {
 
+
     public function getLogin()
     {
         return view('blog.auth.login');

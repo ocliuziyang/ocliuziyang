@@ -28,6 +28,7 @@ class CreateUsersTable extends Migration
             $table->string('job')->nullable();
             $table->string('real_name')->nullable();
             $table->timestamp('last_active_at')->nullable();
+            $table->tinyInteger('admin_level')->default(0);
             $table->timestamps();
         });
     }

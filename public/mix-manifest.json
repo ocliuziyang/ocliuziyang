@@ -1,7 +1,8 @@
 {
-  "/mix.js": "/mix.ebbf81f92279b69d819a.js",
-  "/css/blog.custom.css": "/css/blog.custom.5e07af9b2eebf8f7a22f2cb9a78752fb.css",
-  "/css/blog-auth.css": "/css/blog-auth.013521534467801a169deddd235650e4.css",
-  "/assets/app/css/app.css": "/assets/app/css/app.738f89658183ce1869f7b2da6ffe5e8a.css",
-  "/assets/admin/css/admin.css": "/assets/admin/css/admin.aa0868c0bf7da54e9ccbf3e1a0037b20.css"
+  "/mix.js": "/mix.js",
+  "/css/blog.custom.css": "/css/blog.custom.css",
+  "/css/blog-auth.css": "/css/blog-auth.css",
+  "/assets/app/css/app.css": "/assets/app/css/app.css",
+  "/assets/admin/css/admin.css": "/assets/admin/css/admin.css",
+  "/assets/admin/js/admin.js": "/assets/admin/js/admin.js"
 }

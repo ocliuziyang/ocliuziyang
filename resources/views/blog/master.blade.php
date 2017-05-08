@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/blog.custom.css">
+    <link rel="stylesheet" href="{{ mix('css/blog.custom.css') }}">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">

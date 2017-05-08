@@ -68,7 +68,6 @@ class AuthenticateUserService {
     public function getSocialUser($type)
     {
         $user = $this->socialite->driver($type)->user();
-
         return $user;
     }
 
